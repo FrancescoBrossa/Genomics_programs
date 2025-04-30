@@ -13,7 +13,7 @@
 nameArray=("child" "father" "mother")
 i=0
 # we build a lighter version where we only use soft links so we're not going to 
-# use the cp
+# use the cp command
 # cp "$person" "case$1/${nameArray[$i]}$1.fq.gz" 
 first_d=$(pwd)
 cd case$1
@@ -22,9 +22,8 @@ cd "$first_d"
 if [ "${#vectorFQ[@]}" -eq 3 ]; then
 	exit 0
 fi
-# takes the proper variables from the paths.txt file
+# takes the proper variables from the paths.txt file NOT already included in the last version
 path=$(grep "1cases-->" paths.txt | grep -P "/.*$")
-echo "check if the path works ${path}case$1"
 
 for person in /home/BCG2025_genomics_exam/case$1*.fq.gz; do
 	# try to fix the names in order to have it homologpus to that of bam, and the qualimiap folder
