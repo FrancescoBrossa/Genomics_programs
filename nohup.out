@@ -1,0 +1,1330 @@
+building the index for child732
+2973525 reads; of these:
+  2973525 (100.00%) were unpaired; of these:
+    4632 (0.16%) aligned 0 times
+    1940561 (65.26%) aligned exactly 1 time
+    1028332 (34.58%) aligned >1 times
+99.84% overall alignment rate
+[bam_sort_core] merging from 1 files and 1 in-memory blocks...
+building the index for father732
+2190571 reads; of these:
+  2190571 (100.00%) were unpaired; of these:
+    2346 (0.11%) aligned 0 times
+    1467902 (67.01%) aligned exactly 1 time
+    720323 (32.88%) aligned >1 times
+99.89% overall alignment rate
+building the index for mother732
+2050251 reads; of these:
+  2050251 (100.00%) were unpaired; of these:
+    3894 (0.19%) aligned 0 times
+    1428403 (69.67%) aligned exactly 1 time
+    617954 (30.14%) aligned >1 times
+99.81% overall alignment rate
+3
+ building Trio732.vcf file
+freebayes has done
+3
+what will be searched 0/1.*0/1.*1/1
+3
+Started analysis of child732.fq.gz
+Approx 5% complete for child732.fq.gz
+Approx 10% complete for child732.fq.gz
+Approx 15% complete for child732.fq.gz
+Approx 20% complete for child732.fq.gz
+Approx 25% complete for child732.fq.gz
+Approx 30% complete for child732.fq.gz
+Approx 35% complete for child732.fq.gz
+Approx 40% complete for child732.fq.gz
+Approx 45% complete for child732.fq.gz
+Approx 50% complete for child732.fq.gz
+Approx 55% complete for child732.fq.gz
+Approx 60% complete for child732.fq.gz
+Approx 65% complete for child732.fq.gz
+Approx 70% complete for child732.fq.gz
+Approx 75% complete for child732.fq.gz
+Approx 80% complete for child732.fq.gz
+Approx 85% complete for child732.fq.gz
+Approx 90% complete for child732.fq.gz
+Approx 95% complete for child732.fq.gz
+Analysis complete for child732.fq.gz
+Started analysis of father732.fq.gz
+Approx 5% complete for father732.fq.gz
+Approx 10% complete for father732.fq.gz
+Approx 15% complete for father732.fq.gz
+Approx 20% complete for father732.fq.gz
+Approx 25% complete for father732.fq.gz
+Approx 30% complete for father732.fq.gz
+Approx 35% complete for father732.fq.gz
+Approx 40% complete for father732.fq.gz
+Approx 45% complete for father732.fq.gz
+Approx 50% complete for father732.fq.gz
+Approx 55% complete for father732.fq.gz
+Approx 60% complete for father732.fq.gz
+Approx 65% complete for father732.fq.gz
+Approx 70% complete for father732.fq.gz
+Approx 75% complete for father732.fq.gz
+Approx 80% complete for father732.fq.gz
+Approx 85% complete for father732.fq.gz
+Approx 90% complete for father732.fq.gz
+Approx 95% complete for father732.fq.gz
+Analysis complete for father732.fq.gz
+Started analysis of mother732.fq.gz
+Approx 5% complete for mother732.fq.gz
+Approx 10% complete for mother732.fq.gz
+Approx 15% complete for mother732.fq.gz
+Approx 20% complete for mother732.fq.gz
+Approx 25% complete for mother732.fq.gz
+Approx 30% complete for mother732.fq.gz
+Approx 35% complete for mother732.fq.gz
+Approx 40% complete for mother732.fq.gz
+Approx 45% complete for mother732.fq.gz
+Approx 50% complete for mother732.fq.gz
+Approx 55% complete for mother732.fq.gz
+Approx 60% complete for mother732.fq.gz
+Approx 65% complete for mother732.fq.gz
+Approx 70% complete for mother732.fq.gz
+Approx 75% complete for mother732.fq.gz
+Approx 80% complete for mother732.fq.gz
+Approx 85% complete for mother732.fq.gz
+Approx 90% complete for mother732.fq.gz
+Approx 95% complete for mother732.fq.gz
+Analysis complete for mother732.fq.gz
+Java memory size is set to 1200M
+Launching application...
+
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+QualiMap v.2.3
+Built on 2023-05-19 16:57
+
+Selected tool: bamqc
+Available memory (Mb): 35
+Max memory (Mb): 1258
+Starting bam qc....
+Loading sam header...
+Loading locator...
+Loading reference...
+Number of windows: 400, effective number of windows: 400
+Chunk of reads size: 1000
+Number of threads: 56
+Initializing regions from /home/BCG2025_genomics_exam/exons16Padded_sorted.bed.....
+Found 8783 regions
+Filling region references... 
+Processed 50 out of 400 windows...
+Processed 100 out of 400 windows...
+Processed 150 out of 400 windows...
+Processed 200 out of 400 windows...
+Processed 250 out of 400 windows...
+Processed 300 out of 400 windows...
+Processed 350 out of 400 windows...
+Processed 400 out of 400 windows...
+Total processed windows:400
+Number of reads: 2973525
+Number of valid reads: 2968893
+Number of correct strand reads:0
+
+Inside of regions...
+Num mapped reads: 1572507
+Num mapped first of pair: 0
+Num mapped second of pair: 0
+Num singletons: 0
+Time taken to analyze reads: 12
+Computing descriptors...
+numberOfMappedBases: 139906999
+referenceSize: 90354753
+numberOfSequencedBases: 139895269
+numberOfAs: 37744159
+Computing per chromosome statistics...
+Computing histograms...
+Overall analysis time: 12
+end of bam qc
+Computing report...
+Writing HTML report...
+HTML report created successfully
+
+Finished
+Java memory size is set to 1200M
+Launching application...
+
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+QualiMap v.2.3
+Built on 2023-05-19 16:57
+
+Selected tool: bamqc
+Available memory (Mb): 35
+Max memory (Mb): 1258
+Starting bam qc....
+Loading sam header...
+Loading locator...
+Loading reference...
+Number of windows: 400, effective number of windows: 400
+Chunk of reads size: 1000
+Number of threads: 56
+Initializing regions from /home/BCG2025_genomics_exam/exons16Padded_sorted.bed.....
+Found 8783 regions
+Filling region references... 
+Processed 50 out of 400 windows...
+Processed 100 out of 400 windows...
+Processed 150 out of 400 windows...
+Processed 200 out of 400 windows...
+Processed 250 out of 400 windows...
+Processed 300 out of 400 windows...
+Processed 350 out of 400 windows...
+Processed 400 out of 400 windows...
+Total processed windows:400
+Number of reads: 2190571
+Number of valid reads: 2188225
+Number of correct strand reads:0
+
+Inside of regions...
+Num mapped reads: 1682752
+Num mapped first of pair: 0
+Num mapped second of pair: 0
+Num singletons: 0
+Time taken to analyze reads: 10
+Computing descriptors...
+numberOfMappedBases: 158335206
+referenceSize: 90354753
+numberOfSequencedBases: 158320762
+numberOfAs: 37523927
+Computing per chromosome statistics...
+Computing histograms...
+Overall analysis time: 10
+end of bam qc
+Computing report...
+Writing HTML report...
+HTML report created successfully
+
+Finished
+Java memory size is set to 1200M
+Launching application...
+
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+QualiMap v.2.3
+Built on 2023-05-19 16:57
+
+Selected tool: bamqc
+Available memory (Mb): 35
+Max memory (Mb): 1258
+Starting bam qc....
+Loading sam header...
+Loading locator...
+Loading reference...
+Number of windows: 400, effective number of windows: 400
+Chunk of reads size: 1000
+Number of threads: 56
+Initializing regions from /home/BCG2025_genomics_exam/exons16Padded_sorted.bed.....
+Found 8783 regions
+Filling region references... 
+Processed 50 out of 400 windows...
+Processed 100 out of 400 windows...
+Processed 150 out of 400 windows...
+Processed 200 out of 400 windows...
+Processed 250 out of 400 windows...
+Processed 300 out of 400 windows...
+Processed 350 out of 400 windows...
+Processed 400 out of 400 windows...
+Total processed windows:400
+Number of reads: 2050251
+Number of valid reads: 2046357
+Number of correct strand reads:0
+
+Inside of regions...
+Num mapped reads: 1618414
+Num mapped first of pair: 0
+Num mapped second of pair: 0
+Num singletons: 0
+Time taken to analyze reads: 9
+Computing descriptors...
+numberOfMappedBases: 152172843
+referenceSize: 90354753
+numberOfSequencedBases: 152156635
+numberOfAs: 36386258
+Computing per chromosome statistics...
+Computing histograms...
+Overall analysis time: 9
+end of bam qc
+Computing report...
+Writing HTML report...
+HTML report created successfully
+
+Finished
+
+  /// MultiQC 🔍 | v1.14
+
+|           multiqc | MultiQC Version v1.28 now available!
+|           multiqc | Search path : /home/BCG2025_brossaF/Genomics/Ourcases/myCases/case732
+|         searching | ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 152/152  
+|          qualimap | Found 3 BamQC reports
+|            fastqc | Found 3 reports
+|           multiqc | Compressing plot data
+|           multiqc | Report      : multiqc_report.html
+|           multiqc | Data        : multiqc_data
+|           multiqc | MultiQC complete
+3
+building the child732.bg file
+building the father732.bg file
+building the mother732.bg file
+building the index for child685
+2973584 reads; of these:
+  2973584 (100.00%) were unpaired; of these:
+    4632 (0.16%) aligned 0 times
+    1940620 (65.26%) aligned exactly 1 time
+    1028332 (34.58%) aligned >1 times
+99.84% overall alignment rate
+[bam_sort_core] merging from 1 files and 1 in-memory blocks...
+building the index for father685
+2190598 reads; of these:
+  2190598 (100.00%) were unpaired; of these:
+    2346 (0.11%) aligned 0 times
+    1467929 (67.01%) aligned exactly 1 time
+    720323 (32.88%) aligned >1 times
+99.89% overall alignment rate
+building the index for mother685
+2050319 reads; of these:
+  2050319 (100.00%) were unpaired; of these:
+    3895 (0.19%) aligned 0 times
+    1428470 (69.67%) aligned exactly 1 time
+    617954 (30.14%) aligned >1 times
+99.81% overall alignment rate
+3
+ building Trio685.vcf file
+freebayes has done
+3
+what will be searched 0/1.*0/1.*1/1
+3
+Started analysis of child685.fq.gz
+Approx 5% complete for child685.fq.gz
+Approx 10% complete for child685.fq.gz
+Approx 15% complete for child685.fq.gz
+Approx 20% complete for child685.fq.gz
+Approx 25% complete for child685.fq.gz
+Approx 30% complete for child685.fq.gz
+Approx 35% complete for child685.fq.gz
+Approx 40% complete for child685.fq.gz
+Approx 45% complete for child685.fq.gz
+Approx 50% complete for child685.fq.gz
+Approx 55% complete for child685.fq.gz
+Approx 60% complete for child685.fq.gz
+Approx 65% complete for child685.fq.gz
+Approx 70% complete for child685.fq.gz
+Approx 75% complete for child685.fq.gz
+Approx 80% complete for child685.fq.gz
+Approx 85% complete for child685.fq.gz
+Approx 90% complete for child685.fq.gz
+Approx 95% complete for child685.fq.gz
+Analysis complete for child685.fq.gz
+Started analysis of father685.fq.gz
+Approx 5% complete for father685.fq.gz
+Approx 10% complete for father685.fq.gz
+Approx 15% complete for father685.fq.gz
+Approx 20% complete for father685.fq.gz
+Approx 25% complete for father685.fq.gz
+Approx 30% complete for father685.fq.gz
+Approx 35% complete for father685.fq.gz
+Approx 40% complete for father685.fq.gz
+Approx 45% complete for father685.fq.gz
+Approx 50% complete for father685.fq.gz
+Approx 55% complete for father685.fq.gz
+Approx 60% complete for father685.fq.gz
+Approx 65% complete for father685.fq.gz
+Approx 70% complete for father685.fq.gz
+Approx 75% complete for father685.fq.gz
+Approx 80% complete for father685.fq.gz
+Approx 85% complete for father685.fq.gz
+Approx 90% complete for father685.fq.gz
+Approx 95% complete for father685.fq.gz
+Analysis complete for father685.fq.gz
+Started analysis of mother685.fq.gz
+Approx 5% complete for mother685.fq.gz
+Approx 10% complete for mother685.fq.gz
+Approx 15% complete for mother685.fq.gz
+Approx 20% complete for mother685.fq.gz
+Approx 25% complete for mother685.fq.gz
+Approx 30% complete for mother685.fq.gz
+Approx 35% complete for mother685.fq.gz
+Approx 40% complete for mother685.fq.gz
+Approx 45% complete for mother685.fq.gz
+Approx 50% complete for mother685.fq.gz
+Approx 55% complete for mother685.fq.gz
+Approx 60% complete for mother685.fq.gz
+Approx 65% complete for mother685.fq.gz
+Approx 70% complete for mother685.fq.gz
+Approx 75% complete for mother685.fq.gz
+Approx 80% complete for mother685.fq.gz
+Approx 85% complete for mother685.fq.gz
+Approx 90% complete for mother685.fq.gz
+Approx 95% complete for mother685.fq.gz
+Analysis complete for mother685.fq.gz
+Java memory size is set to 1200M
+Launching application...
+
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+QualiMap v.2.3
+Built on 2023-05-19 16:57
+
+Selected tool: bamqc
+Available memory (Mb): 35
+Max memory (Mb): 1258
+Starting bam qc....
+Loading sam header...
+Loading locator...
+Loading reference...
+Number of windows: 400, effective number of windows: 400
+Chunk of reads size: 1000
+Number of threads: 56
+Initializing regions from /home/BCG2025_genomics_exam/exons16Padded_sorted.bed.....
+Found 8783 regions
+Filling region references... 
+Processed 50 out of 400 windows...
+Processed 100 out of 400 windows...
+Processed 150 out of 400 windows...
+Processed 200 out of 400 windows...
+Processed 250 out of 400 windows...
+Processed 300 out of 400 windows...
+Processed 350 out of 400 windows...
+Processed 400 out of 400 windows...
+Total processed windows:400
+Number of reads: 2973584
+Number of valid reads: 2968952
+Number of correct strand reads:0
+
+Inside of regions...
+Num mapped reads: 1572566
+Num mapped first of pair: 0
+Num mapped second of pair: 0
+Num singletons: 0
+Time taken to analyze reads: 11
+Computing descriptors...
+numberOfMappedBases: 139912696
+referenceSize: 90354753
+numberOfSequencedBases: 139900966
+numberOfAs: 37745359
+Computing per chromosome statistics...
+Computing histograms...
+Overall analysis time: 11
+end of bam qc
+Computing report...
+Writing HTML report...
+HTML report created successfully
+
+Finished
+Java memory size is set to 1200M
+Launching application...
+
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+QualiMap v.2.3
+Built on 2023-05-19 16:57
+
+Selected tool: bamqc
+Available memory (Mb): 35
+Max memory (Mb): 1258
+Starting bam qc....
+Loading sam header...
+Loading locator...
+Loading reference...
+Number of windows: 400, effective number of windows: 400
+Chunk of reads size: 1000
+Number of threads: 56
+Initializing regions from /home/BCG2025_genomics_exam/exons16Padded_sorted.bed.....
+Found 8783 regions
+Filling region references... 
+Processed 50 out of 400 windows...
+Processed 100 out of 400 windows...
+Processed 150 out of 400 windows...
+Processed 200 out of 400 windows...
+Processed 250 out of 400 windows...
+Processed 300 out of 400 windows...
+Processed 350 out of 400 windows...
+Processed 400 out of 400 windows...
+Total processed windows:400
+Number of reads: 2190598
+Number of valid reads: 2188252
+Number of correct strand reads:0
+
+Inside of regions...
+Num mapped reads: 1682779
+Num mapped first of pair: 0
+Num mapped second of pair: 0
+Num singletons: 0
+Time taken to analyze reads: 9
+Computing descriptors...
+numberOfMappedBases: 158337833
+referenceSize: 90354753
+numberOfSequencedBases: 158323389
+numberOfAs: 37524189
+Computing per chromosome statistics...
+Computing histograms...
+Overall analysis time: 9
+end of bam qc
+Computing report...
+Writing HTML report...
+HTML report created successfully
+
+Finished
+Java memory size is set to 1200M
+Launching application...
+
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+QualiMap v.2.3
+Built on 2023-05-19 16:57
+
+Selected tool: bamqc
+Available memory (Mb): 35
+Max memory (Mb): 1258
+Starting bam qc....
+Loading sam header...
+Loading locator...
+Loading reference...
+Number of windows: 400, effective number of windows: 400
+Chunk of reads size: 1000
+Number of threads: 56
+Initializing regions from /home/BCG2025_genomics_exam/exons16Padded_sorted.bed.....
+Found 8783 regions
+Filling region references... 
+Processed 50 out of 400 windows...
+Processed 100 out of 400 windows...
+Processed 150 out of 400 windows...
+Processed 200 out of 400 windows...
+Processed 250 out of 400 windows...
+Processed 300 out of 400 windows...
+Processed 350 out of 400 windows...
+Processed 400 out of 400 windows...
+Total processed windows:400
+Number of reads: 2050319
+Number of valid reads: 2046424
+Number of correct strand reads:0
+
+Inside of regions...
+Num mapped reads: 1618481
+Num mapped first of pair: 0
+Num mapped second of pair: 0
+Num singletons: 0
+Time taken to analyze reads: 10
+Computing descriptors...
+numberOfMappedBases: 152179728
+referenceSize: 90354753
+numberOfSequencedBases: 152163520
+numberOfAs: 36387692
+Computing per chromosome statistics...
+Computing histograms...
+Overall analysis time: 10
+end of bam qc
+Computing report...
+Writing HTML report...
+HTML report created successfully
+
+Finished
+
+  /// MultiQC 🔍 | v1.14
+
+|           multiqc | MultiQC Version v1.28 now available!
+|           multiqc | Search path : /home/BCG2025_brossaF/Genomics/Ourcases/myCases/case685
+|         searching | ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 152/152  
+|          qualimap | Found 3 BamQC reports
+|            fastqc | Found 3 reports
+|           multiqc | Compressing plot data
+|           multiqc | Report      : multiqc_report.html
+|           multiqc | Data        : multiqc_data
+|           multiqc | MultiQC complete
+3
+building the child685.bg file
+building the father685.bg file
+building the mother685.bg file
+building the index for child737
+2973586 reads; of these:
+  2973586 (100.00%) were unpaired; of these:
+    4632 (0.16%) aligned 0 times
+    1940622 (65.26%) aligned exactly 1 time
+    1028332 (34.58%) aligned >1 times
+99.84% overall alignment rate
+[bam_sort_core] merging from 1 files and 1 in-memory blocks...
+building the index for father737
+2190593 reads; of these:
+  2190593 (100.00%) were unpaired; of these:
+    2346 (0.11%) aligned 0 times
+    1467924 (67.01%) aligned exactly 1 time
+    720323 (32.88%) aligned >1 times
+99.89% overall alignment rate
+building the index for mother737
+2050307 reads; of these:
+  2050307 (100.00%) were unpaired; of these:
+    3895 (0.19%) aligned 0 times
+    1428458 (69.67%) aligned exactly 1 time
+    617954 (30.14%) aligned >1 times
+99.81% overall alignment rate
+3
+ building Trio737.vcf file
+freebayes has done
+3
+what will be searched 0/1.*0/1.*1/1
+3
+Started analysis of child737.fq.gz
+Approx 5% complete for child737.fq.gz
+Approx 10% complete for child737.fq.gz
+Approx 15% complete for child737.fq.gz
+Approx 20% complete for child737.fq.gz
+Approx 25% complete for child737.fq.gz
+Approx 30% complete for child737.fq.gz
+Approx 35% complete for child737.fq.gz
+Approx 40% complete for child737.fq.gz
+Approx 45% complete for child737.fq.gz
+Approx 50% complete for child737.fq.gz
+Approx 55% complete for child737.fq.gz
+Approx 60% complete for child737.fq.gz
+Approx 65% complete for child737.fq.gz
+Approx 70% complete for child737.fq.gz
+Approx 75% complete for child737.fq.gz
+Approx 80% complete for child737.fq.gz
+Approx 85% complete for child737.fq.gz
+Approx 90% complete for child737.fq.gz
+Approx 95% complete for child737.fq.gz
+Analysis complete for child737.fq.gz
+Started analysis of father737.fq.gz
+Approx 5% complete for father737.fq.gz
+Approx 10% complete for father737.fq.gz
+Approx 15% complete for father737.fq.gz
+Approx 20% complete for father737.fq.gz
+Approx 25% complete for father737.fq.gz
+Approx 30% complete for father737.fq.gz
+Approx 35% complete for father737.fq.gz
+Approx 40% complete for father737.fq.gz
+Approx 45% complete for father737.fq.gz
+Approx 50% complete for father737.fq.gz
+Approx 55% complete for father737.fq.gz
+Approx 60% complete for father737.fq.gz
+Approx 65% complete for father737.fq.gz
+Approx 70% complete for father737.fq.gz
+Approx 75% complete for father737.fq.gz
+Approx 80% complete for father737.fq.gz
+Approx 85% complete for father737.fq.gz
+Approx 90% complete for father737.fq.gz
+Approx 95% complete for father737.fq.gz
+Analysis complete for father737.fq.gz
+Started analysis of mother737.fq.gz
+Approx 5% complete for mother737.fq.gz
+Approx 10% complete for mother737.fq.gz
+Approx 15% complete for mother737.fq.gz
+Approx 20% complete for mother737.fq.gz
+Approx 25% complete for mother737.fq.gz
+Approx 30% complete for mother737.fq.gz
+Approx 35% complete for mother737.fq.gz
+Approx 40% complete for mother737.fq.gz
+Approx 45% complete for mother737.fq.gz
+Approx 50% complete for mother737.fq.gz
+Approx 55% complete for mother737.fq.gz
+Approx 60% complete for mother737.fq.gz
+Approx 65% complete for mother737.fq.gz
+Approx 70% complete for mother737.fq.gz
+Approx 75% complete for mother737.fq.gz
+Approx 80% complete for mother737.fq.gz
+Approx 85% complete for mother737.fq.gz
+Approx 90% complete for mother737.fq.gz
+Approx 95% complete for mother737.fq.gz
+Analysis complete for mother737.fq.gz
+Java memory size is set to 1200M
+Launching application...
+
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+QualiMap v.2.3
+Built on 2023-05-19 16:57
+
+Selected tool: bamqc
+Available memory (Mb): 35
+Max memory (Mb): 1258
+Starting bam qc....
+Loading sam header...
+Loading locator...
+Loading reference...
+Number of windows: 400, effective number of windows: 400
+Chunk of reads size: 1000
+Number of threads: 56
+Initializing regions from /home/BCG2025_genomics_exam/exons16Padded_sorted.bed.....
+Found 8783 regions
+Filling region references... 
+Processed 50 out of 400 windows...
+Processed 100 out of 400 windows...
+Processed 150 out of 400 windows...
+Processed 200 out of 400 windows...
+Processed 250 out of 400 windows...
+Processed 300 out of 400 windows...
+Processed 350 out of 400 windows...
+Processed 400 out of 400 windows...
+Total processed windows:400
+Number of reads: 2973586
+Number of valid reads: 2968954
+Number of correct strand reads:0
+
+Inside of regions...
+Num mapped reads: 1572568
+Num mapped first of pair: 0
+Num mapped second of pair: 0
+Num singletons: 0
+Time taken to analyze reads: 11
+Computing descriptors...
+numberOfMappedBases: 139913180
+referenceSize: 90354753
+numberOfSequencedBases: 139901450
+numberOfAs: 37744581
+Computing per chromosome statistics...
+Computing histograms...
+Overall analysis time: 11
+end of bam qc
+Computing report...
+Writing HTML report...
+HTML report created successfully
+
+Finished
+Java memory size is set to 1200M
+Launching application...
+
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+QualiMap v.2.3
+Built on 2023-05-19 16:57
+
+Selected tool: bamqc
+Available memory (Mb): 35
+Max memory (Mb): 1258
+Starting bam qc....
+Loading sam header...
+Loading locator...
+Loading reference...
+Number of windows: 400, effective number of windows: 400
+Chunk of reads size: 1000
+Number of threads: 56
+Initializing regions from /home/BCG2025_genomics_exam/exons16Padded_sorted.bed.....
+Found 8783 regions
+Filling region references... 
+Processed 50 out of 400 windows...
+Processed 100 out of 400 windows...
+Processed 150 out of 400 windows...
+Processed 200 out of 400 windows...
+Processed 250 out of 400 windows...
+Processed 300 out of 400 windows...
+Processed 350 out of 400 windows...
+Processed 400 out of 400 windows...
+Total processed windows:400
+Number of reads: 2190593
+Number of valid reads: 2188247
+Number of correct strand reads:0
+
+Inside of regions...
+Num mapped reads: 1682774
+Num mapped first of pair: 0
+Num mapped second of pair: 0
+Num singletons: 0
+Time taken to analyze reads: 10
+Computing descriptors...
+numberOfMappedBases: 158335244
+referenceSize: 90354753
+numberOfSequencedBases: 158320800
+numberOfAs: 37523539
+Computing per chromosome statistics...
+Computing histograms...
+Overall analysis time: 10
+end of bam qc
+Computing report...
+Writing HTML report...
+HTML report created successfully
+
+Finished
+Java memory size is set to 1200M
+Launching application...
+
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+QualiMap v.2.3
+Built on 2023-05-19 16:57
+
+Selected tool: bamqc
+Available memory (Mb): 35
+Max memory (Mb): 1258
+Starting bam qc....
+Loading sam header...
+Loading locator...
+Loading reference...
+Number of windows: 400, effective number of windows: 400
+Chunk of reads size: 1000
+Number of threads: 56
+Initializing regions from /home/BCG2025_genomics_exam/exons16Padded_sorted.bed.....
+Found 8783 regions
+Filling region references... 
+Processed 50 out of 400 windows...
+Processed 100 out of 400 windows...
+Processed 150 out of 400 windows...
+Processed 200 out of 400 windows...
+Processed 250 out of 400 windows...
+Processed 300 out of 400 windows...
+Processed 350 out of 400 windows...
+Processed 400 out of 400 windows...
+Total processed windows:400
+Number of reads: 2050307
+Number of valid reads: 2046412
+Number of correct strand reads:0
+
+Inside of regions...
+Num mapped reads: 1618469
+Num mapped first of pair: 0
+Num mapped second of pair: 0
+Num singletons: 0
+Time taken to analyze reads: 9
+Computing descriptors...
+numberOfMappedBases: 152176358
+referenceSize: 90354753
+numberOfSequencedBases: 152160150
+numberOfAs: 36386847
+Computing per chromosome statistics...
+Computing histograms...
+Overall analysis time: 9
+end of bam qc
+Computing report...
+Writing HTML report...
+HTML report created successfully
+
+Finished
+
+  /// MultiQC 🔍 | v1.14
+
+|           multiqc | MultiQC Version v1.28 now available!
+|           multiqc | Search path : /home/BCG2025_brossaF/Genomics/Ourcases/myCases/case737
+|         searching | ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 152/152  
+|          qualimap | Found 3 BamQC reports
+|            fastqc | Found 3 reports
+|           multiqc | Compressing plot data
+|           multiqc | Report      : multiqc_report.html
+|           multiqc | Data        : multiqc_data
+|           multiqc | MultiQC complete
+3
+building the child737.bg file
+building the father737.bg file
+building the mother737.bg file
+building the index for child677
+2973568 reads; of these:
+  2973568 (100.00%) were unpaired; of these:
+    4632 (0.16%) aligned 0 times
+    1940604 (65.26%) aligned exactly 1 time
+    1028332 (34.58%) aligned >1 times
+99.84% overall alignment rate
+[bam_sort_core] merging from 1 files and 1 in-memory blocks...
+building the index for father677
+2190593 reads; of these:
+  2190593 (100.00%) were unpaired; of these:
+    2346 (0.11%) aligned 0 times
+    1467924 (67.01%) aligned exactly 1 time
+    720323 (32.88%) aligned >1 times
+99.89% overall alignment rate
+building the index for mother677
+2050307 reads; of these:
+  2050307 (100.00%) were unpaired; of these:
+    3895 (0.19%) aligned 0 times
+    1428458 (69.67%) aligned exactly 1 time
+    617954 (30.14%) aligned >1 times
+99.81% overall alignment rate
+3
+ building Trio677.vcf file
+freebayes has done
+3
+what will be searched 0/1.*0/1.*1/1
+3
+Started analysis of child677.fq.gz
+Approx 5% complete for child677.fq.gz
+Approx 10% complete for child677.fq.gz
+Approx 15% complete for child677.fq.gz
+Approx 20% complete for child677.fq.gz
+Approx 25% complete for child677.fq.gz
+Approx 30% complete for child677.fq.gz
+Approx 35% complete for child677.fq.gz
+Approx 40% complete for child677.fq.gz
+Approx 45% complete for child677.fq.gz
+Approx 50% complete for child677.fq.gz
+Approx 55% complete for child677.fq.gz
+Approx 60% complete for child677.fq.gz
+Approx 65% complete for child677.fq.gz
+Approx 70% complete for child677.fq.gz
+Approx 75% complete for child677.fq.gz
+Approx 80% complete for child677.fq.gz
+Approx 85% complete for child677.fq.gz
+Approx 90% complete for child677.fq.gz
+Approx 95% complete for child677.fq.gz
+Analysis complete for child677.fq.gz
+Started analysis of father677.fq.gz
+Approx 5% complete for father677.fq.gz
+Approx 10% complete for father677.fq.gz
+Approx 15% complete for father677.fq.gz
+Approx 20% complete for father677.fq.gz
+Approx 25% complete for father677.fq.gz
+Approx 30% complete for father677.fq.gz
+Approx 35% complete for father677.fq.gz
+Approx 40% complete for father677.fq.gz
+Approx 45% complete for father677.fq.gz
+Approx 50% complete for father677.fq.gz
+Approx 55% complete for father677.fq.gz
+Approx 60% complete for father677.fq.gz
+Approx 65% complete for father677.fq.gz
+Approx 70% complete for father677.fq.gz
+Approx 75% complete for father677.fq.gz
+Approx 80% complete for father677.fq.gz
+Approx 85% complete for father677.fq.gz
+Approx 90% complete for father677.fq.gz
+Approx 95% complete for father677.fq.gz
+Analysis complete for father677.fq.gz
+Started analysis of mother677.fq.gz
+Approx 5% complete for mother677.fq.gz
+Approx 10% complete for mother677.fq.gz
+Approx 15% complete for mother677.fq.gz
+Approx 20% complete for mother677.fq.gz
+Approx 25% complete for mother677.fq.gz
+Approx 30% complete for mother677.fq.gz
+Approx 35% complete for mother677.fq.gz
+Approx 40% complete for mother677.fq.gz
+Approx 45% complete for mother677.fq.gz
+Approx 50% complete for mother677.fq.gz
+Approx 55% complete for mother677.fq.gz
+Approx 60% complete for mother677.fq.gz
+Approx 65% complete for mother677.fq.gz
+Approx 70% complete for mother677.fq.gz
+Approx 75% complete for mother677.fq.gz
+Approx 80% complete for mother677.fq.gz
+Approx 85% complete for mother677.fq.gz
+Approx 90% complete for mother677.fq.gz
+Approx 95% complete for mother677.fq.gz
+Analysis complete for mother677.fq.gz
+Java memory size is set to 1200M
+Launching application...
+
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+QualiMap v.2.3
+Built on 2023-05-19 16:57
+
+Selected tool: bamqc
+Available memory (Mb): 35
+Max memory (Mb): 1258
+Starting bam qc....
+Loading sam header...
+Loading locator...
+Loading reference...
+Number of windows: 400, effective number of windows: 400
+Chunk of reads size: 1000
+Number of threads: 56
+Initializing regions from /home/BCG2025_genomics_exam/exons16Padded_sorted.bed.....
+Found 8783 regions
+Filling region references... 
+Processed 50 out of 400 windows...
+Processed 100 out of 400 windows...
+Processed 150 out of 400 windows...
+Processed 200 out of 400 windows...
+Processed 250 out of 400 windows...
+Processed 300 out of 400 windows...
+Processed 350 out of 400 windows...
+Processed 400 out of 400 windows...
+Total processed windows:400
+Number of reads: 2973568
+Number of valid reads: 2968936
+Number of correct strand reads:0
+
+Inside of regions...
+Num mapped reads: 1572550
+Num mapped first of pair: 0
+Num mapped second of pair: 0
+Num singletons: 0
+Time taken to analyze reads: 12
+Computing descriptors...
+numberOfMappedBases: 139911616
+referenceSize: 90354753
+numberOfSequencedBases: 139899886
+numberOfAs: 37744931
+Computing per chromosome statistics...
+Computing histograms...
+Overall analysis time: 12
+end of bam qc
+Computing report...
+Writing HTML report...
+HTML report created successfully
+
+Finished
+Java memory size is set to 1200M
+Launching application...
+
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+QualiMap v.2.3
+Built on 2023-05-19 16:57
+
+Selected tool: bamqc
+Available memory (Mb): 35
+Max memory (Mb): 1258
+Starting bam qc....
+Loading sam header...
+Loading locator...
+Loading reference...
+Number of windows: 400, effective number of windows: 400
+Chunk of reads size: 1000
+Number of threads: 56
+Initializing regions from /home/BCG2025_genomics_exam/exons16Padded_sorted.bed.....
+Found 8783 regions
+Filling region references... 
+Processed 50 out of 400 windows...
+Processed 100 out of 400 windows...
+Processed 150 out of 400 windows...
+Processed 200 out of 400 windows...
+Processed 250 out of 400 windows...
+Processed 300 out of 400 windows...
+Processed 350 out of 400 windows...
+Processed 400 out of 400 windows...
+Total processed windows:400
+Number of reads: 2190593
+Number of valid reads: 2188247
+Number of correct strand reads:0
+
+Inside of regions...
+Num mapped reads: 1682774
+Num mapped first of pair: 0
+Num mapped second of pair: 0
+Num singletons: 0
+Time taken to analyze reads: 9
+Computing descriptors...
+numberOfMappedBases: 158335244
+referenceSize: 90354753
+numberOfSequencedBases: 158320800
+numberOfAs: 37523539
+Computing per chromosome statistics...
+Computing histograms...
+Overall analysis time: 9
+end of bam qc
+Computing report...
+Writing HTML report...
+HTML report created successfully
+
+Finished
+Java memory size is set to 1200M
+Launching application...
+
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+QualiMap v.2.3
+Built on 2023-05-19 16:57
+
+Selected tool: bamqc
+Available memory (Mb): 35
+Max memory (Mb): 1258
+Starting bam qc....
+Loading sam header...
+Loading locator...
+Loading reference...
+Number of windows: 400, effective number of windows: 400
+Chunk of reads size: 1000
+Number of threads: 56
+Initializing regions from /home/BCG2025_genomics_exam/exons16Padded_sorted.bed.....
+Found 8783 regions
+Filling region references... 
+Processed 50 out of 400 windows...
+Processed 100 out of 400 windows...
+Processed 150 out of 400 windows...
+Processed 200 out of 400 windows...
+Processed 250 out of 400 windows...
+Processed 300 out of 400 windows...
+Processed 350 out of 400 windows...
+Processed 400 out of 400 windows...
+Total processed windows:400
+Number of reads: 2050307
+Number of valid reads: 2046412
+Number of correct strand reads:0
+
+Inside of regions...
+Num mapped reads: 1618469
+Num mapped first of pair: 0
+Num mapped second of pair: 0
+Num singletons: 0
+Time taken to analyze reads: 9
+Computing descriptors...
+numberOfMappedBases: 152176358
+referenceSize: 90354753
+numberOfSequencedBases: 152160150
+numberOfAs: 36386847
+Computing per chromosome statistics...
+Computing histograms...
+Overall analysis time: 9
+end of bam qc
+Computing report...
+Writing HTML report...
+HTML report created successfully
+
+Finished
+
+  /// MultiQC 🔍 | v1.14
+
+|           multiqc | MultiQC Version v1.28 now available!
+|           multiqc | Search path : /home/BCG2025_brossaF/Genomics/Ourcases/myCases/case677
+|         searching | ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 152/152  
+|          qualimap | Found 3 BamQC reports
+|            fastqc | Found 3 reports
+|           multiqc | Compressing plot data
+|           multiqc | Report      : multiqc_report.html
+|           multiqc | Data        : multiqc_data
+|           multiqc | MultiQC complete
+3
+building the child677.bg file
+building the father677.bg file
+building the mother677.bg file
+building the index for child661
+2973575 reads; of these:
+  2973575 (100.00%) were unpaired; of these:
+    4632 (0.16%) aligned 0 times
+    1940611 (65.26%) aligned exactly 1 time
+    1028332 (34.58%) aligned >1 times
+99.84% overall alignment rate
+[bam_sort_core] merging from 1 files and 1 in-memory blocks...
+building the index for father661
+2190593 reads; of these:
+  2190593 (100.00%) were unpaired; of these:
+    2346 (0.11%) aligned 0 times
+    1467924 (67.01%) aligned exactly 1 time
+    720323 (32.88%) aligned >1 times
+99.89% overall alignment rate
+building the index for mother661
+2050307 reads; of these:
+  2050307 (100.00%) were unpaired; of these:
+    3895 (0.19%) aligned 0 times
+    1428458 (69.67%) aligned exactly 1 time
+    617954 (30.14%) aligned >1 times
+99.81% overall alignment rate
+3
+ building Trio661.vcf file
+freebayes has done
+3
+what will be searched 0/1.*0/1.*1/1
+3
+Started analysis of child661.fq.gz
+Approx 5% complete for child661.fq.gz
+Approx 10% complete for child661.fq.gz
+Approx 15% complete for child661.fq.gz
+Approx 20% complete for child661.fq.gz
+Approx 25% complete for child661.fq.gz
+Approx 30% complete for child661.fq.gz
+Approx 35% complete for child661.fq.gz
+Approx 40% complete for child661.fq.gz
+Approx 45% complete for child661.fq.gz
+Approx 50% complete for child661.fq.gz
+Approx 55% complete for child661.fq.gz
+Approx 60% complete for child661.fq.gz
+Approx 65% complete for child661.fq.gz
+Approx 70% complete for child661.fq.gz
+Approx 75% complete for child661.fq.gz
+Approx 80% complete for child661.fq.gz
+Approx 85% complete for child661.fq.gz
+Approx 90% complete for child661.fq.gz
+Approx 95% complete for child661.fq.gz
+Analysis complete for child661.fq.gz
+Started analysis of father661.fq.gz
+Approx 5% complete for father661.fq.gz
+Approx 10% complete for father661.fq.gz
+Approx 15% complete for father661.fq.gz
+Approx 20% complete for father661.fq.gz
+Approx 25% complete for father661.fq.gz
+Approx 30% complete for father661.fq.gz
+Approx 35% complete for father661.fq.gz
+Approx 40% complete for father661.fq.gz
+Approx 45% complete for father661.fq.gz
+Approx 50% complete for father661.fq.gz
+Approx 55% complete for father661.fq.gz
+Approx 60% complete for father661.fq.gz
+Approx 65% complete for father661.fq.gz
+Approx 70% complete for father661.fq.gz
+Approx 75% complete for father661.fq.gz
+Approx 80% complete for father661.fq.gz
+Approx 85% complete for father661.fq.gz
+Approx 90% complete for father661.fq.gz
+Approx 95% complete for father661.fq.gz
+Analysis complete for father661.fq.gz
+Started analysis of mother661.fq.gz
+Approx 5% complete for mother661.fq.gz
+Approx 10% complete for mother661.fq.gz
+Approx 15% complete for mother661.fq.gz
+Approx 20% complete for mother661.fq.gz
+Approx 25% complete for mother661.fq.gz
+Approx 30% complete for mother661.fq.gz
+Approx 35% complete for mother661.fq.gz
+Approx 40% complete for mother661.fq.gz
+Approx 45% complete for mother661.fq.gz
+Approx 50% complete for mother661.fq.gz
+Approx 55% complete for mother661.fq.gz
+Approx 60% complete for mother661.fq.gz
+Approx 65% complete for mother661.fq.gz
+Approx 70% complete for mother661.fq.gz
+Approx 75% complete for mother661.fq.gz
+Approx 80% complete for mother661.fq.gz
+Approx 85% complete for mother661.fq.gz
+Approx 90% complete for mother661.fq.gz
+Approx 95% complete for mother661.fq.gz
+Analysis complete for mother661.fq.gz
+Java memory size is set to 1200M
+Launching application...
+
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+QualiMap v.2.3
+Built on 2023-05-19 16:57
+
+Selected tool: bamqc
+Available memory (Mb): 35
+Max memory (Mb): 1258
+Starting bam qc....
+Loading sam header...
+Loading locator...
+Loading reference...
+Number of windows: 400, effective number of windows: 400
+Chunk of reads size: 1000
+Number of threads: 56
+Initializing regions from /home/BCG2025_genomics_exam/exons16Padded_sorted.bed.....
+Found 8783 regions
+Filling region references... 
+Processed 50 out of 400 windows...
+Processed 100 out of 400 windows...
+Processed 150 out of 400 windows...
+Processed 200 out of 400 windows...
+Processed 250 out of 400 windows...
+Processed 300 out of 400 windows...
+Processed 350 out of 400 windows...
+Processed 400 out of 400 windows...
+Total processed windows:400
+Number of reads: 2973575
+Number of valid reads: 2968943
+Number of correct strand reads:0
+
+Inside of regions...
+Num mapped reads: 1572557
+Num mapped first of pair: 0
+Num mapped second of pair: 0
+Num singletons: 0
+Time taken to analyze reads: 11
+Computing descriptors...
+numberOfMappedBases: 139912279
+referenceSize: 90354753
+numberOfSequencedBases: 139900549
+numberOfAs: 37745458
+Computing per chromosome statistics...
+Computing histograms...
+Overall analysis time: 11
+end of bam qc
+Computing report...
+Writing HTML report...
+HTML report created successfully
+
+Finished
+Java memory size is set to 1200M
+Launching application...
+
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+QualiMap v.2.3
+Built on 2023-05-19 16:57
+
+Selected tool: bamqc
+Available memory (Mb): 35
+Max memory (Mb): 1258
+Starting bam qc....
+Loading sam header...
+Loading locator...
+Loading reference...
+Number of windows: 400, effective number of windows: 400
+Chunk of reads size: 1000
+Number of threads: 56
+Initializing regions from /home/BCG2025_genomics_exam/exons16Padded_sorted.bed.....
+Found 8783 regions
+Filling region references... 
+Processed 50 out of 400 windows...
+Processed 100 out of 400 windows...
+Processed 150 out of 400 windows...
+Processed 200 out of 400 windows...
+Processed 250 out of 400 windows...
+Processed 300 out of 400 windows...
+Processed 350 out of 400 windows...
+Processed 400 out of 400 windows...
+Total processed windows:400
+Number of reads: 2190593
+Number of valid reads: 2188247
+Number of correct strand reads:0
+
+Inside of regions...
+Num mapped reads: 1682774
+Num mapped first of pair: 0
+Num mapped second of pair: 0
+Num singletons: 0
+Time taken to analyze reads: 10
+Computing descriptors...
+numberOfMappedBases: 158335244
+referenceSize: 90354753
+numberOfSequencedBases: 158320800
+numberOfAs: 37523539
+Computing per chromosome statistics...
+Computing histograms...
+Overall analysis time: 10
+end of bam qc
+Computing report...
+Writing HTML report...
+HTML report created successfully
+
+Finished
+Java memory size is set to 1200M
+Launching application...
+
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+QualiMap v.2.3
+Built on 2023-05-19 16:57
+
+Selected tool: bamqc
+Available memory (Mb): 35
+Max memory (Mb): 1258
+Starting bam qc....
+Loading sam header...
+Loading locator...
+Loading reference...
+Number of windows: 400, effective number of windows: 400
+Chunk of reads size: 1000
+Number of threads: 56
+Initializing regions from /home/BCG2025_genomics_exam/exons16Padded_sorted.bed.....
+Found 8783 regions
+Filling region references... 
+Processed 50 out of 400 windows...
+Processed 100 out of 400 windows...
+Processed 150 out of 400 windows...
+Processed 200 out of 400 windows...
+Processed 250 out of 400 windows...
+Processed 300 out of 400 windows...
+Processed 350 out of 400 windows...
+Processed 400 out of 400 windows...
+Total processed windows:400
+Number of reads: 2050307
+Number of valid reads: 2046412
+Number of correct strand reads:0
+
+Inside of regions...
+Num mapped reads: 1618469
+Num mapped first of pair: 0
+Num mapped second of pair: 0
+Num singletons: 0
+Time taken to analyze reads: 9
+Computing descriptors...
+numberOfMappedBases: 152176358
+referenceSize: 90354753
+numberOfSequencedBases: 152160150
+numberOfAs: 36386847
+Computing per chromosome statistics...
+Computing histograms...
+Overall analysis time: 9
+end of bam qc
+Computing report...
+Writing HTML report...
+HTML report created successfully
+
+Finished
+
+  /// MultiQC 🔍 | v1.14
+
+|           multiqc | MultiQC Version v1.28 now available!
+|           multiqc | Search path : /home/BCG2025_brossaF/Genomics/Ourcases/myCases/case661
+|         searching | ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 152/152  
+|          qualimap | Found 3 BamQC reports
+|            fastqc | Found 3 reports
+|           multiqc | Compressing plot data
+|           multiqc | Report      : multiqc_report.html
+|           multiqc | Data        : multiqc_data
+|           multiqc | MultiQC complete
+3
+building the child661.bg file
+building the father661.bg file
+building the mother661.bg file
