@@ -41,7 +41,7 @@ if [ "$2"="AR" ]; then
 	filename="recessive"
 elif [ "$2"="AD" ]; then
        	grep "#" Trio$1.vcf > dominant$1.vcf
-        grep "##" -v Trio$1.vcf | grep -E "{pAD[0]}${pAD[1]}.*${pAD[2]}" >> dominant$1.vcf
+        grep "##" -v Trio$1.vcf | grep -E "${pAD[0]}.*${pAD[1]}.*${pAD[2]}" >> dominant$1.vcf
 	filename="dominant"
 else
        	echo "invalid gene type argument they must be AD or AR"
