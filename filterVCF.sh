@@ -33,13 +33,13 @@ for i in {0..2}; do
 		exit 1
 	fi
 done
-if [[ "$2"=="AR" ]]; then
+if [[ "$2" == "AR" ]]; then
        	echo "what will be searched ${pAR[0]}.*${pAR[1]}.*${pAR[2]}"
         # TRY TO embodies the header to make it understandable
         grep "#" Trio$1.vcf > recessive$1.vcf
         grep "##" -v Trio$1.vcf | grep -E "${pAR[0]}.*${pAR[1]}.*${pAR[2]}" >> recessive$1.vcf
 	filename="recessive"
-elif [[ "$2"=="AD" ]]; then
+elif [[ "$2" == "AD" ]]; then
        	grep "#" Trio$1.vcf > dominant$1.vcf
         grep "##" -v Trio$1.vcf | grep -E "${pAD[0]}.*${pAD[1]}.*${pAD[2]}" >> dominant$1.vcf
 	filename="dominant"
