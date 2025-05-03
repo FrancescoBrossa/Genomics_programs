@@ -1,13 +1,10 @@
-# we need to map all fq files of the Trio, we'll exploit the uni* ref
-# genome 
-# to make the program as generic as possible we'll take as input the case
-# number
+# we need to map all fq files of the Trio, we'll exploit the uni index
+# to make the program as generic as possible we'll take as input the case number
 
-# check if we have the case number
-
+# check if we have the right amount of args
 if ! [ $# -eq 1 ]; then 
 	echo " wrong number of argument for mapFQfiles"
-	# this is the equivalent of raising an error I think
+	# this is the equivalent of raising an error 
 	exit 1
 fi 
 # but also to make everything even more automatic we'll check if we already
@@ -23,7 +20,7 @@ fi
 first_d=$(pwd)
 cd case$1/
 
-# we skip the index building (bowtie2 index) cause it already exist
+# we skip the index building (bowtie2 index) cause it already existS
 
 # we correct with --rg-id and -rg "SM:."
 for name in *.fq.gz; do
