@@ -14,12 +14,14 @@ cd case$1
 names=(*.bam)
 # similarly we perform this only if we don't have already a .vcf file
 vcfFiles=(*.vcf)
+
 if ! [ -f Trio$1.vcf ]; then
 	echo " building Trio$1.vcf file"
-# with the ${names[@]} we will consinder each element of the vecotr separately 
+	# with the ${names[@]} we will consinder each element of the vector separately but all at the same time 
 	freebayes  -f /home/BCG2025_genomics_exam/universe.fasta -m 20 -C 5 -Q 10 --min-coverage 10 "${names[@]}" > Trio$1.vcf
 	echo "freebayes has done"
 fi
+# it checks if the program works
 if ! [ -f Trio$1.vcf ]; then
         echo " the Trio$1.vcf file has not been created"
 	exit 1
