@@ -28,7 +28,11 @@ fn = folder number
 gt = gene type
 
 ### ALLCOMMANDS.SH arguments: fn, gt
-this program w
+this program will take the case number and the genetype (AR, AD) and will run all the analysis for the case
+
+### ALLASSIGNMENTS.SH argument: None
+this program will interate for each row of ourcases.txt file extracting each word separated by semicolon into a variable
+and launching allCommands.sh with such variables 
 
 ## WORKFLOW OF THE PROGRAMS
 ### WE IMPLEMENT PROGRAMS TO SOLVE THE FOLLOWING TASKS 
