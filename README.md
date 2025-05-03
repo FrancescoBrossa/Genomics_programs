@@ -62,6 +62,10 @@ To enable each program to run in any situations we connected them, so if the dir
 fn = folder number
 gt = gene type
 
+## checkBAM.sh
+checkBAM.sh is a program built just to check the existance of .bam files in the directory, it has called by the other programs each time .bam files are needed
+
+
 ## 1. IMPORTCASES.SH ARGUMENT: fn
 
 the program check if the case$fn exists (if not it builds the folder)
