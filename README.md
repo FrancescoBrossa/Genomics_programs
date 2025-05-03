@@ -34,7 +34,9 @@ this program will take the case number and the genetype (AR, AD) and will run al
 this program will interate for each row of ourcases.txt file extracting each word separated by semicolon into a variable
 and launching allCommands.sh with such variables 
 
-## WORKFLOW OF THE PROGRAMS
+
+
+# WORKFLOW OF THE PROGRAMS
 ### WE IMPLEMENT PROGRAMS TO SOLVE THE FOLLOWING TASKS 
 - mapping reads over a reference genome
 - build .vcf files in order to indentify the variants presents in input sequences
@@ -70,14 +72,14 @@ case$fn folder
 
 the program call importcases.sh to check the existence of the directory
 
-then exploit the uni index build up from universe.fasta in the BCG2025_genomics_exam/ directory
-to build SAM files (for each fq file) where to annotate which portion of the reference genome
-the reads of fq files cover
-In a pipeline we actually covert those SAM files with samtools to bam files 
+then exploit the uni index already built from universe.fasta in the BCG2025_genomics_exam/ directory
+to build .sam files (for each .fq file) in which annotates which portion of the reference genome
+the reads of .fq files cover
+In a pipeline we actually covert those .sam files with samtools to .bam files 
 
 ## 3. BUILDVCF.SH ARGUMENT: fn
-this program check for BAM files existance (launching checkBAM.sh)
-then simply create the .vcf file out of the 3 BAM files 
+this program check for .bam files existance (launching checkBAM.sh)
+then simply create the .vcf file out of the 3 .bam files 
 
 ## 4. FILTERVCF.sh ARGUMENT: fn, gt
 
