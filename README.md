@@ -20,7 +20,17 @@ casenumber;genetype
 )*
 ### 5. THE USER EMPLOY A UNIX BASED OPERATING SYSTEM
 
-## SAID THAT LET'S SEE THE WORKFLOW OF OUR PROGRAMS USED TO ANALYZE GENOMICS DATA
+## WRAPPER PROGRAMS
+before looking in depth at the core of the analysis programs let's describe the programs that exploit them as blackbox
+
+### ARGUMENT LEGENT
+fn = folder number
+gt = gene type
+
+### ALLCOMMANDS.SH arguments: fn, gt
+this program w
+
+## WORKFLOW OF THE PROGRAMS
 ### WE IMPLEMENT PROGRAMS TO SOLVE THE FOLLOWING TASKS 
 - mapping reads over a reference genome
 - build .vcf files in order to indentify the variants presents in input sequences
