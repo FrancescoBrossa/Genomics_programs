@@ -1,10 +1,10 @@
 # IN THIS FILE WE WILL DESCRIBE THE GENERAL STRUCTURE OF OUR PROGRAMS
 ## WE START HERE DESCRIBING THE CONDITIONS IN WHICH WE EXPLOITED SUCH PROGRAMS: 
-### 1. CASES, REFERENCE SEQUENCE AND BOWTIE2 INDEX ARE PRESENT IN THE /home/BCG2025_genomics_exam/ FOLDER
+### 1. CASES, REFERENCE SEQUENCE AND BOWTIE2 INDEX ARE PRESENT IN THE "/home/BCG2025_genomics_exam/" FOLDER
 *the user who wanted to change such paths needs to change: importcases.sh (line 28), mapFQfiles.sh (line 32),
 buildVCF.sh (line 20), filterVCF.sh (line 61), qualimapper.sh (line 31)*
 ### 2. THE PROGRAMS WORKS ON TRIOS
-*that means the programs will raise an error when it detects a different number from 3 of .fq or .bam files*
+*that means the programs will raise an error when they detect a different number from 3 of .fq or .bam files*
 ### 3. THE USER HAVE TO PROVIDE THE ARGUMENT IN THE RIGHT ORDER
 *the programs don't check if the user provide first the case number and then the gene type (AD or AR)
 that is up to the user*
