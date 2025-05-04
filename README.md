@@ -63,7 +63,7 @@ fn = folder number
 gt = gene type
 
 ## checkBAM.sh
-checkBAM.sh is a program built just to check the existance of .bam files in the directory, it has called by the other programs each time .bam files are needed
+checkBAM.sh is a program built just to check the existance of .bam files in the directory, it is called by the other programs each time .bam files are needed
 
 
 ## 1. IMPORTCASES.SH ARGUMENT: fn
