@@ -1,4 +1,5 @@
 # IN THIS FILE WE WILL DESCRIBE THE GENERAL STRUCTURE OF OUR PROGRAMS
+*here we specify the relative path where our result are stored on the server: /home/BCG2025_brossaF/BrossaDalconteExam/*
 ## WE START HERE DESCRIBING THE CONDITIONS IN WHICH WE EXPLOITED SUCH PROGRAMS: 
 ### 1. CASES, REFERENCE SEQUENCE AND BOWTIE2 INDEX ARE PRESENT IN THE "/home/BCG2025_genomics_exam/" FOLDER
 *the user who wanted to change such paths needs to change: importcases.sh (line 28), mapFQfiles.sh (line 32),
@@ -10,7 +11,7 @@ buildVCF.sh (line 20), filterVCF.sh (line 61), qualimapper.sh (line 31)*
 that is up to the user*
 ### 4. THE USER NEEDS TO WRITE THE CASES THEY WANT TO RUN OVER THE "ourcases.txt"
 *the format needs to be
-casenumber;geneype\n
+casenumber;genetype\n
 casenumber;genetype
 (e.g.
 556;AD
